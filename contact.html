@@ -13,26 +13,22 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03"
-            aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon mr-auto"></span>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light justify-content-end">
+        <a style="background-color: rgb(26, 175, 170); color: white;" class="navbar-brand" href="#">Jane Sferrazza</a>
+        <button style="visibility: hidden;" class="btn btn-success ml-auto mr-1">Always Show</button>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
+            <span class="navbar-toggler-icon"></span>
         </button>
-        <a style="
-          background-color: rgb(26, 175, 170);
-          color: white;
-          margin-right: 1000px;
-        " class="navbar-brand" href="index.html">Jane Sferrazza</a>
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+        <div class="collapse navbar-collapse flex-grow-0" id="navbarSupportedContent">
+            <ul class="navbar-nav text-right">
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">Contact <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="contact.html">Contact </a>
                 </li>
-                <li class="nav-item">
-                    <a style="text-align: right" class="nav-link" href="#">Portfolio</a>
+                <li class="nav-item active">
+                    <a class="nav-link" href="portofolio.html">Portfolio</a>
                 </li>
-                <li style="text-align: right" class="nav-item">
-                    <a style="text-align: right" class="nav-link disabled" href="#">About</a>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">About</a>
                 </li>
             </ul>
         </div>
@@ -41,25 +37,27 @@
     <main style="background-image: url('Assets/Images/backpic.png'); padding-top: 35px; padding-bottom: 35px;"
         class="main">
         <div class="card bg-light mb-3"
-            style="background-color: white; max-width: 50rem; height:500px; margin: 25px 25px">
+            style="background-color: white; max-width: 50rem; height:650px; margin: 25px 25px">
             <div style="background-color: white;" class="card-body">
                 <p style="background-color: white;" class="card-text">
                 <div style="background-color: white; margin: 50px" class="card-header">
                     <h1 style="color: rgb(26, 175, 170)"> Contact </h1>
                 </div>
                 <div class="container">
-                    <div class="mb-3">
+                    <!-- <div class="mb-3"> -->
                         <label for="exampleFormControlInput1" class="form-label">Name</label>
                         <input type="name" class="form-control" id="exampleFormControlInput1"
                             placeholder="Name" />
                         <label for="exampleFormControlInput1" class="form-label">Email address</label>
                         <input type="email" class="form-control" id="exampleFormControlInput1"
                             placeholder="Email" />
-                    </div>
-                    <div class="mb-3">
+                    <!-- </div> -->
+                    <!-- <div class="mb-3"> -->
                         <label for="exampleFormControlTextarea1" class="form-label">Message</label>
                         <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Message" ></textarea>
-                    </div>
+                        <button style="margin:1em 1em; background-color: rgb(26, 175, 170); padding: 1em 2em; color: white; border:rgb(26, 175, 170);" type="button">Submit</button>
+                    <!-- </div> -->
+                    
                 </div>
             </div>
         </div>
