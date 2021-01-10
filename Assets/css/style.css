@@ -1,5 +1,33 @@
-.col-sm{
-    background-color: gray;
-    width: 350px;
-    height: 350px;
+
+div{
+    background-color: white; 
+    overflow: auto; 
+    margin: 25px 25px;
 }
+.navbar-brand{
+    background-color: rgb(26, 175, 170); 
+    color: white;
+}
+ .card .bg-light .mb-3{
+    background-color: white; 
+    max-width: 50rem;
+    overflow: auto; 
+    margin: 25px 25px;
+}
+
+hr{
+    background-color:  rgb(26, 175, 170); 
+    padding: 0.5em; 
+    margin: 0;
+}
+.parag{
+    padding-left: 13em; 
+    margin: auto;
+}
+/* @media (min-width: 400px) { ... }
+
+/* // Medium devices (tablets, 768px and up) 
+@media (min-width: 768px) { ... }
+
+/* // Large devices (desktops, 992px and up) 
+@media (min-width: 992px) { ... } */
