@@ -24,7 +24,14 @@ hr{
     padding-left: 13em; 
     margin: auto;
 }
-/* @media (min-width: 400px) { ... }
+ @media (min-width: 400px) { 
+    p{
+        line-height: 1.75;
+        font-size: 1rem;
+        width: 100%;
+    }
+
+ }
 
 /* // Medium devices (tablets, 768px and up) 
 @media (min-width: 768px) { ... }
