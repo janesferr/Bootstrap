@@ -1,40 +1,53 @@
-
-div{
-    background-color: white; 
-    overflow: auto; 
-    margin: 25px 25px;
+/* div {
+  background-color: white;
+  overflow: auto;
+  margin: 25px 25px;
 }
-.navbar-brand{
-    background-color: rgb(26, 175, 170); 
-    color: white;
+.navbar-brand {
+  background-color: rgb(26, 175, 170);
+  color: white;
 }
- .card .bg-light .mb-3{
-    background-color: white; 
-    max-width: 50rem;
-    overflow: auto; 
-    margin: 25px 25px;
+.card .bg-light .mb-3 {
+  background-color: white;
+  max-width: 50rem;
+  overflow: auto;
+  margin: 25px 25px;
+} */
+
+hr {
+  background-color: rgb(26, 175, 170);
+  padding: 0.5em;
+  margin: 0;
 }
 
-hr{
-    background-color:  rgb(26, 175, 170); 
-    padding: 0.5em; 
-    margin: 0;
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
-.parag{
-    padding-left: 13em; 
-    margin: auto;
+main {
+  background-image: url("../Images/backpic.png");
+  padding: 7em;
 }
- @media (min-width: 400px) { 
-    p{
-        line-height: 1.75;
-        font-size: 1rem;
-        width: 100%;
-    }
+@media (min-width: 400px) {
+  main {
+    padding: 0%;
+  }
+  p {
+    line-height: 1.75;
+    font-size: 1rem;
+    width: 100%;
+  }
+}
 
- }
-
-/* // Medium devices (tablets, 768px and up) 
-@media (min-width: 768px) { ... }
-
-/* // Large devices (desktops, 992px and up) 
-@media (min-width: 992px) { ... } */
+/* // Medium devices (tablets, 768px and up)  */
+@media (min-width: 768px) {
+  body {
+    height: 100vh;
+  }
+  main {
+    padding: 7em 7em;
+    overflow: auto;
+    height: 100%;
+  }
+}
