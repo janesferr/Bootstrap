@@ -26,7 +26,10 @@ footer {
   width: 100%;
 }
 main {
-  background-image: url("../Images/backpic.png");
+  /* background-image: url("../Images/backpic.png"); */
+  background-image: url("../Images/newbackground.png");
+  background-repeat: no-repeat;
+  background-size: cover;
   padding: 7em;
 }
 @media (min-width: 400px) {
